@@ -1,0 +1,17 @@
+initial_positions:
+  gripper_l_joint: 0.1
+  gripper_r_joint: 0.2
+  yumi_joint_1_l: 0.9261335104139309
+  yumi_joint_1_r: -0.6999571645669266
+  yumi_joint_2_l: -0.9898716771520971
+  yumi_joint_2_r: -1.1160945938613835
+  yumi_joint_3_l: -0.00010819496669115502
+  yumi_joint_3_r: -0.0001055993111431113
+  yumi_joint_4_l: -6.550930904313016e-05
+  yumi_joint_4_r: -7.776392997347127e-05
+  yumi_joint_5_l: 3.624946015773971e-05
+  yumi_joint_5_r: 5.681901486701951e-05
+  yumi_joint_6_l: -0.37539046540499943
+  yumi_joint_6_r: -6.915476273217865e-05
+  yumi_joint_7_l: 0.6011743278863533
+  yumi_joint_7_r: -1.2835883848255736

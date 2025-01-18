@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.10">
+
+    <model name="my_object">
+        <pose>0 0 0 0 0 0</pose>
+        <static>true</static>
+        <link name="link">
+            <visual name="visual">
+            <geometry>
+                <mesh>
+                <uri>model://moveit_cpp_send_cmds/meshes/cylinder_update.stl</uri>
+                <scale>0.001 0.001 0.001</scale> <!-- Adjust scaling if needed -->
+                </mesh>
+            </geometry>
+            </visual>
+            <collision name="collision">
+            <geometry>
+                <mesh>
+                <uri>model://moveit_cpp_send_cmds/meshes/cylinder_update.stl</uri>
+                <scale>0.001 0.001 0.001</scale>
+                </mesh>
+            </geometry>
+            </collision>
+            <inertial>
+            <mass>1.0</mass>
+            <inertia>
+                <ixx>0.1</ixx>
+                <iyy>0.1</iyy>
+                <izz>0.1</izz>
+            </inertia>
+            </inertial>
+        </link>
+    </model>
+
+</sdf>
+
