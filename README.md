@@ -29,7 +29,7 @@ To run with a robotstudio controller, upload the RAPID modules and update the IP
 ros2 launch yumi_main_autohoming yumi_socket_launch.py
 ```
 
-A docker image is also available here: https://hub.docker.com/r/rgeorgi24/ros2_test/tags
+A docker image which has been tested is also available here: https://hub.docker.com/r/rgeorgi24/ros2_test/tags
 
 
 
